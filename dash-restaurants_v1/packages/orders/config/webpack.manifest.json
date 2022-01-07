@@ -1,0 +1,19 @@
+{
+	"name": "orders",
+	"filename": "remoteEntry.js",
+	"subdomain": "packages/",
+	"standalone": false,
+	"dev": {
+		"mode": "development",
+		"host": "http://localhost",
+		"port": 15002
+	},
+	"prod": {
+		"mode": "production",
+		"folder": "orders/build/"
+	},
+	"entry": {
+		"appname": "OrdersApp",
+		"filename": "./src/bootstrap"
+	}
+}

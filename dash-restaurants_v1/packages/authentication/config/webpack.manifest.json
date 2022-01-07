@@ -1,0 +1,19 @@
+{
+	"name": "authentication",
+	"filename": "remoteEntry.js",
+	"subdomain": "packages/",
+	"standalone": false,
+	"dev": {
+		"mode": "development",
+		"host": "http://localhost",
+		"port": 15001
+	},
+	"prod": {
+		"mode": "production",
+		"folder": "authentication/build/"
+	},
+	"entry": {
+		"appname": "AuthApp",
+		"filename": "./src/bootstrap"
+	}
+}

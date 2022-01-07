@@ -1,0 +1,2 @@
+# do not run Prettier in "build/" folders
+**/build/*.*

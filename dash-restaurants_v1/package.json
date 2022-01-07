@@ -1,0 +1,20 @@
+{
+    "name": "mfp",
+    "version": "1.0.0",
+    "private": true,
+    "workspaces": [
+      "packages/*"
+    ],
+    "scripts": {
+      "start": "concurrently \"wsrun --parallel start\"",
+	  "build": "concurrently \"wsrun --parallel build\" && node app.js"
+    },
+    "devDependencies": {
+      "concurrently": "^5.3.0",
+      "wsrun": "^5.2.4",
+      "webpack": "^5.4.0",
+	  "webpack-cli": "^4.1.0",
+	  "webpack-dev-server": "^3.11.0",
+	  "webpack-merge": "^5.2.0"
+    }
+  }
